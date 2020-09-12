@@ -8,22 +8,8 @@
 </head>
 
 <body>
-    <div id="box" style="background-color: red;color: blue;">123</div>
+    <button id="btn">btn</button>
 </body>
-<script>
-    var box = document.getElementById('box');
-    box.onclick = function() {
-        console.log(this);
-    }
-    window.onclick = function() {
-        console.log(this);
-    }
-    document.onclick = function() {
-        console.log(this);
-    }
-    document.body.onclick = function() {
-        console.log(this);
-    }
-</script>
+<script type="module" src="./main.js"></script>
 
 </html>
